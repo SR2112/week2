@@ -46,3 +46,53 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body{
+    font-family: "Bruno Ace",sans-serif;
+    line-height: 1.5;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.header{
+    background: #000;
+    color: #D1D1D1;
+    padding: 40px 0;
+}
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+.h1{
+    font-size: 128px;
+}
+.h2{
+    font-size: 64px;
+}
+.fs-1{
+    font-size: 32px;
+}
+.fs-2{
+    font-size: 24px;
+}
+.fs-3{
+    font-size: 20px;
+}
+.df{
+    display: flex;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.aic{
+    align-items: center;
+}
